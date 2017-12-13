@@ -12,5 +12,8 @@ Feature: Kid spent money and parent is deducting
     When i view my child who spent moneyx
     Then i can deduct money from the childx
     
-    
+  Scenario: Parent can remove moneyy
+    Given i am logged in as a parenty
+    When i view my child who spent moneyy
+    Then i can deduct money from the childy
     
