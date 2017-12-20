@@ -47,4 +47,21 @@ public class Kid_spent_money_and_parent_is_deductingStep {
     public void i_can_should_see_a_link_to_add_kids() throws Throwable {
         Assert.assertEquals(true, true);
     }
+
+
+    @Given("^Parent can remove moneyy$")
+    public void ass_that_i_am_a_logged_in_parent() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+
+    @When("^i view my child who spent moneyyx$")
+    public void ai_view_the_kid_list_page() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+
+    @Then("^i can deduct money from the childa")
+    public void ai_can_should_see_a_link_to_add_kids() throws Throwable {
+        Assert.assertEquals(false, true);
+    }
+
 }
