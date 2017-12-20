@@ -48,13 +48,12 @@ public class Kid_spent_money_and_parent_is_deductingStep {
         Assert.assertEquals(true, true);
     }
 
-
-    @Given("^Parent can remove moneyy$")
+    @Given("^i am logged in as a parenty$")
     public void ass_that_i_am_a_logged_in_parent() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
-    @When("^i view my child who spent moneyyx$")
+    @When("^i view my child who spent moneyy$")
     public void ai_view_the_kid_list_page() throws Throwable {
         Assert.assertEquals(true, true);
     }
