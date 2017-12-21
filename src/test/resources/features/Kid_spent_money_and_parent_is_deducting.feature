@@ -17,4 +17,7 @@ Feature: Kid spent money and parent is deducting
     When i view my child who spent moneyy
     Then i can deduct money from the childa
 
-    
+  Scenario: This is a test scenario
+    Given when I am doing a demo
+    When I click a button
+    Then I hope everything works like it usually does
