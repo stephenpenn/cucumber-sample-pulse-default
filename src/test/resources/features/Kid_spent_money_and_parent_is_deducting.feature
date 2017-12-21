@@ -16,9 +16,5 @@ Feature: Kid spent money and parent is deducting
     Given i am logged in as a parenty
     When i view my child who spent moneyy
     Then i can deduct money from the childa
-    
-  Scenario: DemoParent can remove moneyy
-    Given Demoi am logged in as a parenty
-    When Demoi view my child who spent moneyy
-    Then Demoi can deduct money from the childa    
+
     
