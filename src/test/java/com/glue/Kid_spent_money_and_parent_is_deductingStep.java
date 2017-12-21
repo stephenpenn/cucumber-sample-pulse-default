@@ -63,4 +63,18 @@ public class Kid_spent_money_and_parent_is_deductingStep {
         Assert.assertEquals(false, true);
     }
 
+    @Given("^when I am doing a demo$")
+    public void xass_that_i_am_a_logged_in_parent() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+
+    @When("^ click a button$")
+    public void xai_view_the_kid_list_page() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+
+    @Then("^I hope everything works like it usually does")
+    public void xai_can_should_see_a_link_to_add_kids() throws Throwable {
+        Assert.assertEquals(false, true);
+    }
 }
