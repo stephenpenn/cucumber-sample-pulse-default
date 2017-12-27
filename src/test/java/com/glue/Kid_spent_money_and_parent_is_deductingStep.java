@@ -68,7 +68,7 @@ public class Kid_spent_money_and_parent_is_deductingStep {
         Assert.assertEquals(true, true);
     }
 
-    @When("^ click a button$")
+    @When("^click a button$")
     public void xai_view_the_kid_list_page() throws Throwable {
         Assert.assertEquals(true, true);
     }
