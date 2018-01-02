@@ -18,7 +18,7 @@ public class Kid_Logging_outStep {
     }
 
     @Then("^I should be forced to the login screenx$")
-    public void ishouldbeforcedtotheloginscreen() throws Throwable {
+    public void ishouldbeforcedtotheloginscreenasdf() throws Throwable {
         Assert.assertEquals(true, true);
     }
 }
