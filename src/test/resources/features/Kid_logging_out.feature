@@ -5,5 +5,5 @@ Feature: Kid logging out
   Scenario: Kid can log out
     Given when I am logged in as a kid
     When I click log out
-    Then I should be forced to the login screen
+    Then I should be forced to the login screenx
  
