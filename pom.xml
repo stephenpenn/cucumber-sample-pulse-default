@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cucumber-sample</groupId>
-    <artifactId>cucumber-sample</artifactId>
+    <groupId>cucumber-sample-pulse-default</groupId>
+    <artifactId>cucumber-sample-pulse-default</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
 

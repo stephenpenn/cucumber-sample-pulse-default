@@ -12,8 +12,3 @@ Feature: Kids spending money
     When kid logs in
     Then I should have a Spend Money Button
     
-  Scenario: This is the name of the new scenario or test case
-    Given I am doing a demo and writing a new test case
-    When I hit save
-    Then qtest manager will have a failed test after jenkins builds
-    

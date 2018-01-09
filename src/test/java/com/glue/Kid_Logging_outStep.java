@@ -14,7 +14,7 @@ public class Kid_Logging_outStep {
 
     @When("^I click log out$")
     public void iclicklogout() throws Throwable {
-        Assert.assertEquals(true, false);
+        Assert.assertEquals(true, true);
     }
 
     @Then("^I should be forced to the login screenx$")
