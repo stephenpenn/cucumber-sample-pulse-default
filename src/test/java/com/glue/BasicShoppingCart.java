@@ -4,12 +4,17 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+//Given I'm a logged-in User
+//    When I go the Item page
+//    And I click "Add item to cart"
+//    Then the quanitity of items in my cart should go up
+//    And my subtotal should increment
+//    And the warehouse inventory should decrement
+//    But I should be logged out if I'm inactive over 5 minuutes
 
-//
-//  Scenario: kid should log in
-//          Given i am a kid with an account
-//          When i log in after my parent has made an account
-//          Then i should see my account balance
+
+
+
 public class BasicShoppingCart {
     @Given("^Given I'm a logged-in User$")
     public void Imaloggedinuser() throws Throwable {
