@@ -7,7 +7,7 @@ Feature: BasicShoppingCart
       And a customer named "Wilson"
 
   Scenario: User add itms to cart
-    Given that I'm a logged in parent
+    Given that I am a logged in parent
     When I go the Item page
     And I click "Add item to cart"
     Then the quanitity of items in my cart should go up
