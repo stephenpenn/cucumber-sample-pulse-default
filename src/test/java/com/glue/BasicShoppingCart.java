@@ -3,6 +3,7 @@ package com.glue;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java.en.And;
 import org.junit.Assert;
 //Given I'm a logged-in User
 //    When I go the Item page
@@ -23,6 +24,11 @@ public class BasicShoppingCart {
 
     @When("^I go the Item page$")
     public void igotheitempage() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+
+    @And("^the warehouse inventory should decrement$")
+    public void thewarehouseinventoryshoulddecrement() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
