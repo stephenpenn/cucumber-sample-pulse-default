@@ -1,10 +1,6 @@
 
 Feature: BasicShoppingCart
   A basic shopping cart experience so that users can shop for items
-  
-  Background:
-      Given a global administrator named "Greg"
-      And a customer named "Wilson"
 
   Scenario: User add itms to cart
     Given that I am a logged in parent
