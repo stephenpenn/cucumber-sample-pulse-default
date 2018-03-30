@@ -25,7 +25,7 @@ public class Amazon_Authentication_Feature {
         Assert.assertEquals(true, true);
     }
     @And("^click Login$")
-    public void click_login () throws Throwable {
+    public void i_click_login () throws Throwable {
         Assert.assertEquals(true, true);
     }
     @And("^go to the search field$")
