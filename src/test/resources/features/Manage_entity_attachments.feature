@@ -20,26 +20,4 @@ Feature: Manage entity attachments
       When the user tries to upload a larger attachment higher than the limit
       Then he gets a message that this is to large
       
-      Scenario Outline: View attachments
-        
-        Given a defect with an attachment of type "<type>"
-        When the user opens the list of attachments
-        Then he can see its name and type
-        And he can see when it was uploaded
-        And he can download the attachment
-        When the user adds a description
-        Then the description is saved
-        When the user modifies the name and not the extension
-        Then the new name is saved
-        But extension was not changed
-        
-        Examples:
-          | type |
-          | jpg  |
-          | Jpeg |
-          | png  |
-          | bmp  |
-          | doc  |
-          | docx |
-          | xml  |
-          | csv  |
+   
