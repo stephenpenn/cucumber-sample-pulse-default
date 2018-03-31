@@ -5,6 +5,6 @@ Feature: AmazonAuthentcationFeature
   Scenario: AmazonLoginToOrder
     Given I have login to Amazon
     When I put in my credentials
-    And click Login
+    And I click Login
     And go to the search field
     Then I should be able to find my item to order
