@@ -17,7 +17,7 @@ public class Amazon_Authentication_Feature {
 
     @Given("^I have login to Amazon$")
     public void i_have_login_to_amazon () throws Throwable {
-        Assert.assertEquals(true, true);
+        Assert.assertEquals(true, false);
     }
 
     @When("^I put in my credentials$")
@@ -26,7 +26,7 @@ public class Amazon_Authentication_Feature {
     }
     @And("^click Login$")
     public void i_click_login () throws Throwable {
-        Assert.assertEquals(true, true);
+        Assert.assertEquals(true, false);
     }
     @And("^go to the search field$")
     public void i_go_to_the_search_field () throws Throwable {
