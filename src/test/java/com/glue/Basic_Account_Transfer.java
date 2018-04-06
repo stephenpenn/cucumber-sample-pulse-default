@@ -1,7 +1,13 @@
 package com.glue;
 
-import cucumber.api.java.en.*;
+
 import org.junit.Assert;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.But;
+
 //Scenario: Balance Transfer Scenario
 //    Given I have logged into my bank account
 //    And the balance shows 100,000 USD
@@ -15,23 +21,20 @@ public class Basic_Account_Transfer {
         Assert.assertEquals(true, true);
     }
 
-    @When("^I go the Item page$")
-    public void igotheitempage() throws Throwable {
+    @When("^I transfer 20,000 USD to my savings account$")
+    public void I_transfer_to_my_savings_account() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
-    @And("^the warehouse inventory should decrement$")
-    public void thewarehouseinventoryshoulddecrement() throws Throwable {
+    @And("^the balance shows 100,000 USD$")
+    public void the_balance_shows_usd() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
-    @Then("^the quanitity of items in my cart should go up$")
-    public void thequantityofitmesinmycart() throws Throwable {
+    @Then("^the new balance should be 80,000 GBR$")
+    public void the_new_balance_should_be_gbr() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
-    @But("^I should be logged out if I'm inactive over 5 minuutes$")
-    public void ishouldbeloggedoutifiminactive () throws Throwable {
-        Assert.assertEquals(true, true);
-    }
+
 }
