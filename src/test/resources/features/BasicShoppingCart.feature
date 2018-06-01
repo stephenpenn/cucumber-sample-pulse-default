@@ -9,7 +9,7 @@ Feature: BasicShoppingCart
     Then the quanitity of items in my cart should go up
     And my subtotal should increment
     And the warehouse inventory should decrement
-    But I should be logged out if I'm inactive over 8 minuutes
+    But I should be logged out if I'm inactive over 8 minuutes - update
     
     
       
