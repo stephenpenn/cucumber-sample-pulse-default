@@ -31,7 +31,7 @@ public class Basic_Account_Transfer {
         Assert.assertEquals(true, true);
     }
 
-    @Then("^the new balance should be 80,000 GBR$ - update")
+    @Then("^the new balance should be 80,000 GBR$")
     public void the_new_balance_should_be_gbr() throws Throwable {
         Assert.assertEquals(true, true);
     }
