@@ -11,5 +11,11 @@ Feature: BasicShoppingCart
     And the warehouse inventory should decrement
     But I should be logged out if I'm inactive over 8 minuutes - update
     
+    Scenario: Send a message on Twitter
+      Given I'm logged into twitter
+      When go to the editor
+      And I type in my message
+      And I push send
+      Then my message is sent to my timeline
     
       
