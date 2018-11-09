@@ -11,6 +11,6 @@ Feature: Bank Account Transfer
   Scenario: Second Balance Transfer Scenario
     Given I have a balance of $2,000 dollars
     When I request to withdraw $200 dollars
-    Then I should have a remaining balance of $1,800 - this is a test
+    Then I should have a remaining balance of $1,800 
 
     
