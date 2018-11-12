@@ -12,5 +12,6 @@ Feature: Bank Account Transfer
     Given I have a balance of $2,000 dollars
     When I request to withdraw $200 dollars
     Then I should have a remaining balance of $1,800 
+    And I put in my credentials
 
     
