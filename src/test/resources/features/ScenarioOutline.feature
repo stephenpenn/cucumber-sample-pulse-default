@@ -1,7 +1,7 @@
 @scenariooutline
 Feature: ScenarioOutline
   This is an example of a Scenario Outline
-
+@smoke
   Scenario: Feeding a cow
     Given the cow weighs 200 kg
     When we calculate the feeding requirements
