@@ -7,4 +7,4 @@ Feature: AmazonAuthentcationFeature
     When I put in my credentials
     And I click Login
     And go to the search field
-    Then I should be able to find my item to order
+    Then I should be able to find my item to order - update
