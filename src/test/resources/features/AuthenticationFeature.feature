@@ -7,4 +7,3 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then I should see my personalized home 
-    And go to the search field - 7:31
