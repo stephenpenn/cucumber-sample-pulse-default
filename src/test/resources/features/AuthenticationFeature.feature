@@ -7,4 +7,4 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then I should see my personalized home 
-    And I have login to Amazon - update 
+    Then I should see my personalized home page19
