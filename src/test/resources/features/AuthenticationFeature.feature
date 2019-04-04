@@ -8,3 +8,4 @@ Feature:AuthenticationFeature
     And click Login
     Then I should see my personalized home 
     Then I should see my personalized home page19
+    And I put in my credentials
