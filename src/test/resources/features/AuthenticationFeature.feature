@@ -9,3 +9,4 @@ Feature:AuthenticationFeature
     Then I should see my personalized home 
     Then I should see my personalized home page19
     And I put in my credentials
+    Then I should be able to find my item to order
