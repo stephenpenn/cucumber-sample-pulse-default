@@ -11,3 +11,4 @@ Feature:AuthenticationFeature
     And I put in my credentials
     Then I should be able to find my item to order
     And go to the search field
+    Then I have opened the application
