@@ -15,4 +15,3 @@ Feature:AuthenticationFeature
     And I have opened the application
     Then click Login
     And I have opened the application
-    Then I should see my personalized home page19
