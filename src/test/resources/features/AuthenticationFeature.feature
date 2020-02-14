@@ -13,5 +13,6 @@ Feature:AuthenticationFeature
     And go to the search field
     Then I have opened the application
     And I have opened the application
-    Then click Login
+
+
     
