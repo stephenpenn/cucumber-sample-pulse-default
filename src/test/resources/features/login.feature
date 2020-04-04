@@ -19,6 +19,7 @@
 			Given the user is on the login page
 			When the user enters "<username>" and "<password>"
 			Then the user should be able to view account balance
+			Then the user should be able to view account balance
 			
 	
 	Examples:
