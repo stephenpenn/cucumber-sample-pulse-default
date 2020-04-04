@@ -14,9 +14,6 @@ Feature:AuthenticationFeature
     Then I have opened the application
     And I have opened the application
     Then click Login
-<<<<<<< HEAD
     And I have opened the application
     Then the user should be able to view account balance
-=======
->>>>>>> parent of beceee7... [skip ci] Update feature
     
