@@ -16,5 +16,4 @@ Feature:AuthenticationFeature
     Then click Login
     And I have opened the application
     Then the user should be able to view account balance
-    Then the user should be able to view account balance
     
