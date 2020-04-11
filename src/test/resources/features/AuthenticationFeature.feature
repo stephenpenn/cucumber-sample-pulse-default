@@ -14,7 +14,7 @@ Feature:AuthenticationFeature
     Then I have opened the application
     And I have opened the application
     Then click Login
-    And I have opened the application
+    
     
     
     
